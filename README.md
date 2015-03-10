@@ -1,2 +1,5 @@
-# Gerenciamento-Referencias
-Curso sobre Gerenciamento de Referências Bibliográficas, organizado pela Associação dos Pós-graduandos da ESALQ/USP, Piracicaba, SP, Brazil.
+# Biometria de Marcadores Genéticos
+
+Aula inicial da disciplina LGN 5830, oferecida no Departamento de
+Genética da ESALQ/USP.
+
