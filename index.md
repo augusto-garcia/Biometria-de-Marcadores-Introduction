@@ -39,6 +39,12 @@ mode        : selfcontained # {selfcontained, standalone, draft}
 
 ---
 
+## Página na internet
+
+[Biometria de Marcadores Genéticos](http://augusto-garcia.github.io/Biometria-de-Marcadores/)
+
+---
+
 ## Conteúdo
 
 - Mapas Genéticos
