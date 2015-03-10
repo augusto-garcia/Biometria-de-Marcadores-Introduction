@@ -58,9 +58,7 @@ slide:not(.segue) h2{
   text-transform: normal;
   letter-spacing: -2px;
   line-height: 1.2em;
-/*  color: #193441;*/
-/*  color: #02574D;*/
-  color: #CC2904;
+  color: #CC2904; /* MUDEI!! #CC2904; #193441;  #02574D; */
 }
 
 /* Reduce Space between Title and Body */
@@ -352,7 +350,7 @@ pre code {
 }
 
 .title-slide {
-  background-color: #9ecae1; /* MUDEI!!! #CBE7A5; #EDE0CF; #CA9F9D;*/
+  background-color: #003350; /* MUDEI!!! #CBE7A5; #EDE0CF; #CA9F9D; #9ecae1*/
   /* background-image:url(http://goo.gl/EpXln); */
 }
 
@@ -362,7 +360,7 @@ pre code {
 
 .title-slide hgroup > h1, 
 .title-slide hgroup > h2 {
-  color: #3182bd;  /* MUDEI!!! #535E43; #EF5150*/
+  color: #f2f7fc ;  /* MUDEI!!! #535E43; #EF5150; #3182bd*/
 }
 
 

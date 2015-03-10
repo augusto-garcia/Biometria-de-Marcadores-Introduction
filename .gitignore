@@ -2,4 +2,5 @@
 .cache
 *.Rproj*
 .DS_Store
+*~
 NEWS.md
