@@ -2,7 +2,7 @@
 title       : LGN 5830 - Biometria de Marcadores Genéticos
 subtitle    : INTRODUÇÃO
 author      : Antonio Augusto Franco Garcia (http://about.me/augusto.garcia)
-job         : Departamento de Genética, ESALQ/USP (2015)
+job         : Departamento de Genética, ESALQ/USP (2017)
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : prettify  # {highlight.js, prettify, highlight}
 hitheme     : solarized_light    # era tomorrow
@@ -19,11 +19,11 @@ mode        : selfcontained # {selfcontained, standalone, draft}
 
 ## Monitores
 
-- Guilherme da Silva Pereira
-- Marcelo Mollinari
 - João Ricardo B F Rosa
+- Kaio O Graças Dias
 - Felipe V Ferrão
-- Adriana C Gianotto
+- Marianella F Quezada Macchiavello
+- Letícia A Castro Lara
 
 ## Alunos e ouvintes
 
@@ -48,6 +48,7 @@ mode        : selfcontained # {selfcontained, standalone, draft}
 ## Conteúdo
 
 - Mapas Genéticos
+  - Tipos de marcadores: tradicionais e SNPs
   - Tipos de populações: RC, $F_2$, RILs, "outcrossing", DIII
   - Teste da segregação mendeliana
   - Análise de ligação (dois pontos, três pontos e multiponto)
@@ -105,6 +106,19 @@ mode        : selfcontained # {selfcontained, standalone, draft}
 
 ---
 
+## Livro - 2017
+
+- ![libro](./figures/LosTresAmigos.jpg)
+- Augustanis, Gabrieles, Marcelitcho
+
+---
+
+## Livro
+
+![book](./figures/book.jpg)
+
+---
+
 ## OneMap
 
 - [CRAN](http://cran.r-project.org/web/packages/onemap/index.html)
@@ -155,7 +169,7 @@ library(ggplot2)
 qplot(hp, mpg, data=mtcars)+geom_smooth() 
 ```
 
-![plot of chunk md-cars-scatter](assets/fig/md-cars-scatter-1.png) 
+![plot of chunk md-cars-scatter](assets/fig/md-cars-scatter-1.png)
 
 ---
 
@@ -268,23 +282,23 @@ print(sessionInfo(), locale = FALSE)
 ```
 
 ```
-## R version 3.1.2 (2014-10-31)
+## R version 3.3.2 (2016-10-31)
 ## Platform: x86_64-pc-linux-gnu (64-bit)
+## Running under: Ubuntu 16.04.2 LTS
 ## 
 ## attached base packages:
-## [1] graphics  grDevices utils     datasets  stats     methods   base     
+## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-## [1] slidify_0.4.5      RColorBrewer_1.1-2 knitr_1.9         
-## [4] ggplot2_1.0.0     
+## [1] slidify_0.5   knitr_1.15.1  ggplot2_2.2.1
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] codetools_0.2-10 colorspace_1.2-5 digest_0.6.8     evaluate_0.5.5  
-##  [5] formatR_1.0      grid_3.1.2       gtable_0.1.2     labeling_0.3    
-##  [9] markdown_0.7.4   MASS_7.3-39      munsell_0.4.2    plyr_1.8.1      
-## [13] proto_0.3-10     Rcpp_0.11.5      reshape2_1.4.1   scales_0.2.4    
-## [17] stringr_0.6.2    tcltk_3.1.2      tools_3.1.2      whisker_0.3-2   
-## [21] yaml_2.1.13
+##  [1] Rcpp_0.12.8      codetools_0.2-15 digest_0.6.12    assertthat_0.1  
+##  [5] grid_3.3.2       plyr_1.8.4       gtable_0.2.0     magrittr_1.5    
+##  [9] evaluate_0.10    scales_0.4.1     highr_0.6        stringi_1.1.2   
+## [13] lazyeval_0.2.0   whisker_0.3-2    labeling_0.3     tools_3.3.2     
+## [17] stringr_1.1.0    munsell_0.4.3    markdown_0.7.7   yaml_2.1.14     
+## [21] compiler_3.3.2   colorspace_1.3-2 tibble_1.2
 ```
 
 --- bg:#fee6ce

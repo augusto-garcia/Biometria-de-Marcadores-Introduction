@@ -2,7 +2,7 @@
 title       : LGN 5830 - Biometria de Marcadores Genéticos
 subtitle    : INTRODUÇÃO
 author      : Antonio Augusto Franco Garcia (http://about.me/augusto.garcia)
-job         : Departamento de Genética, ESALQ/USP (2015)
+job         : Departamento de Genética, ESALQ/USP (2017)
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : prettify  # {highlight.js, prettify, highlight}
 hitheme     : solarized_light    # era tomorrow
@@ -19,11 +19,11 @@ mode        : selfcontained # {selfcontained, standalone, draft}
 
 ## Monitores
 
-- Guilherme da Silva Pereira
-- Marcelo Mollinari
 - João Ricardo B F Rosa
+- Kaio O Graças Dias
 - Felipe V Ferrão
-- Adriana C Gianotto
+- Marianella F Quezada Macchiavello
+- Letícia A Castro Lara
 
 ## Alunos e ouvintes
 
@@ -48,6 +48,7 @@ mode        : selfcontained # {selfcontained, standalone, draft}
 ## Conteúdo
 
 - Mapas Genéticos
+  - Tipos de marcadores: tradicionais e SNPs
   - Tipos de populações: RC, $F_2$, RILs, "outcrossing", DIII
   - Teste da segregação mendeliana
   - Análise de ligação (dois pontos, três pontos e multiponto)
@@ -102,6 +103,19 @@ mode        : selfcontained # {selfcontained, standalone, draft}
     (Belgium), University of Oregon, Illinois State University, Orissa
     University of Agriculture and Technology (India), University of
     Chicago, CRA-GPG - Genomic Research Center, ...
+
+---
+
+## Livro - 2017
+
+- ![libro](./figures/LosTresAmigos.jpg)
+- Augustanis, Gabrieles, Marcelitcho
+
+---
+
+## Livro
+
+![book](./figures/book.jpg)
 
 ---
 
