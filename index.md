@@ -53,6 +53,11 @@ mode        : selfcontained # {selfcontained, standalone, draft}
   - Teste da segregação mendeliana
   - Análise de ligação (dois pontos, três pontos e multiponto)
   - Ordenação de locos
+
+---
+
+## Conteúdo (cont.)
+
 - Mapeamento de QTL's
   - Análise de marcas individualmente
   - Mapeamento por Intervalo
@@ -124,7 +129,7 @@ mode        : selfcontained # {selfcontained, standalone, draft}
 - [CRAN](http://cran.r-project.org/web/packages/onemap/index.html)
 - Purdue University
 - Summer Institute in Statistical Genetics (Seattle, USA; Piracicaba,
-  SP, Brazil). Clique [aqui](http://www.genetica.esalq.usp.br/sisg/)
+  SP, Brazil).
 - OneMap, versão experimental no
 [github](https://github.com/augusto-garcia/onemap)
 
@@ -223,6 +228,9 @@ Involve me and I learn.
 - Página no [Google+](https://plus.google.com/u/0/communities/114505085464124213449)
 - [Mendeley](http://www.mendeley.com/profiles/a-augusto-f-garcia)
 
+---
+
+## (SEMPRE em contato!)
 
 <iframe width="854" height="510" src="https://www.youtube.com/embed/OMOGaugKpzs" frameborder="0" allowfullscreen></iframe>
 
@@ -238,7 +246,7 @@ Involve me and I learn.
 
 ## Statistical Genetics
 
-- Sendo bem sincero, não é algo simples (ao menos para mim)
+- Sendo bem sincero, não é algo simples
 - Poucos conceitos podem fazer uma grande diferença
 
 <iframe width="854" height="510"
@@ -256,21 +264,22 @@ frameborder="0" allowfullscreen></iframe>
   - Não imprimir, mandar apenas em PDF para
       _biometriamarcadores@gmail.com_
   - Use o Google Docs ou o $LaTeX$ (Uôrdi queima o seu filme, mas é válido)
-  - (Opção avançada: _knitr_ com RStudio
+  - (Opção avançada: _knitr_ com RStudio)
   - Muitos exercícios serão respondidos no Fórum diretamente
 - Formem grupos de trabalho, por afinidade, com até 4 pessoas
 
 ---
 
-## Primeiras Tarefas (para 6a feira):
+## Primeiras Tarefas (para 16/03/17):
 
-- Fazer uma lista com nomes de todos participantes, incluindo email
 - Entrar no Google+ (se possível, configure webcam)
   - Adicione-me como contato
-  - Procure a comunidade _Biometria de Marcadores Genéticos_ e inscreva-se
+  - Procure a comunidade _Biometria de Marcadores Genéticos_ e
+    inscreva-se
+  - Apresente-se na comunidade, dizendo sua área de afinidade, etc
 - Crie uma conta no [Mendeley](http://www.mendeley.com/), configure seu perfil e adicione-me
 - Crie uma conta no [Gravatar](http://pt.gravatar.com/) e, obviamente, insira sua foto
-- Inscreva-se no Fórum da disciplina
+- Inscreva-se no [Fórum da disciplina](https://groups.google.com/forum/#!forum/forum-biometria-de-marcadores-2017)
 - (Opcional: crie uma conta no [github](https://github.com) e adicione-me como contato)
 
 
@@ -282,9 +291,9 @@ print(sessionInfo(), locale = FALSE)
 ```
 
 ```
-## R version 3.3.2 (2016-10-31)
+## R version 3.3.3 (2017-03-06)
 ## Platform: x86_64-pc-linux-gnu (64-bit)
-## Running under: Ubuntu 16.04.2 LTS
+## Running under: Ubuntu 16.10
 ## 
 ## attached base packages:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
@@ -293,12 +302,12 @@ print(sessionInfo(), locale = FALSE)
 ## [1] slidify_0.5   knitr_1.15.1  ggplot2_2.2.1
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] Rcpp_0.12.8      codetools_0.2-15 digest_0.6.12    assertthat_0.1  
-##  [5] grid_3.3.2       plyr_1.8.4       gtable_0.2.0     magrittr_1.5    
+##  [1] Rcpp_0.12.9      codetools_0.2-15 digest_0.6.12    assertthat_0.1  
+##  [5] grid_3.3.3       plyr_1.8.4       gtable_0.2.0     magrittr_1.5    
 ##  [9] evaluate_0.10    scales_0.4.1     highr_0.6        stringi_1.1.2   
-## [13] lazyeval_0.2.0   whisker_0.3-2    labeling_0.3     tools_3.3.2     
+## [13] lazyeval_0.2.0   whisker_0.3-2    labeling_0.3     tools_3.3.3     
 ## [17] stringr_1.1.0    munsell_0.4.3    markdown_0.7.7   yaml_2.1.14     
-## [21] compiler_3.3.2   colorspace_1.3-2 tibble_1.2
+## [21] compiler_3.3.3   colorspace_1.3-2 tibble_1.2
 ```
 
 --- bg:#fee6ce
