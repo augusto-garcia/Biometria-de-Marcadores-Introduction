@@ -24,6 +24,7 @@ mode        : selfcontained # {selfcontained, standalone, draft}
 - Felipe V Ferrão
 - Marianella F Quezada Macchiavello
 - Letícia A Castro Lara
+- Rafael Storto Nalin
 
 ## Alunos e ouvintes
 
