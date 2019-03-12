@@ -1,8 +1,8 @@
 --- 
 title       : LGN 5830 - Biometria de Marcadores Genéticos
 subtitle    : INTRODUÇÃO
-author      : Antonio Augusto Franco Garcia (http://about.me/augusto.garcia)
-job         : Departamento de Genética, ESALQ/USP (2017)
+author      : Antonio Augusto Franco Garcia (http://augustogarcia.me)
+job         : Departamento de Genética, ESALQ/USP (2019)
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : prettify  # {highlight.js, prettify, highlight}
 hitheme     : solarized_light    # era tomorrow
@@ -19,12 +19,12 @@ mode        : selfcontained # {selfcontained, standalone, draft}
 
 ## Monitores
 
-- João Ricardo B F Rosa
-- Kaio O Graças Dias
-- Felipe V Ferrão
-- Marianella F Quezada Macchiavello
-- Letícia A Castro Lara
-- Rafael Storto Nalin
+- Kaio Graças Dias
+- Letícia Castro Lara
+- Rafael Nalin
+- Gabriel Gesteira
+- Jhonathan Pedroso
+- Cristiane Taniguti
 
 ## Alunos e ouvintes
 
@@ -77,6 +77,9 @@ mode        : selfcontained # {selfcontained, standalone, draft}
   - Estrutura Populacional
   - Modelos de GWAS
 - Seleção Genômica
+  - Fundamentos
+  - GBLUP
+  - RRBLUP
 
 ---
 
@@ -86,8 +89,7 @@ mode        : selfcontained # {selfcontained, standalone, draft}
   - R
   - OneMap
   - R/qtl
-  - QTLCartographer (eventual)
-  - Outros (MAPMAKER/EXP, GenStat, ...)
+  - Vários outros
 
 ---
 
@@ -112,7 +114,7 @@ mode        : selfcontained # {selfcontained, standalone, draft}
 
 ---
 
-## Livro - 2017
+## Livro
 
 - ![libro](./figures/LosTresAmigos.jpg)
 - Augustanis, Gabrieles, Marcelitcho
@@ -139,13 +141,14 @@ mode        : selfcontained # {selfcontained, standalone, draft}
 
 ## Reprodutibilidade
 
-- Dados experimentais (vídeos, que tal?)
+- Usaremos ferramentas que permitem isso
+- Dados experimentais (vídeos, etc)
 - Web
 - Códigos para analisar os dados
   - [FOAS](http://www.foastat.org/)
   - [ggvis](http://ggvis.rstudio.com/)
   - [QTL](http://kbroman.org/qtlcharts/)
-  - html5
+  - [Slides em html](http://statgen.esalq.usp.br/quantgen/)
 
 ---
 
@@ -155,27 +158,16 @@ mode        : selfcontained # {selfcontained, standalone, draft}
 - Você gostaria que alguém repetisse as análises que você fez na sua
 tese?
 - E nos artigos já publicados?
-  - (Fiz isso no meu pós-doc)
 
 ---
 
 ## Hoje temos muitas possibilidades
 
 - Emacs + R + $BibTex$
-- [RStudio](http://www.rstudio.com/): sensacional, impressionante
+- [RStudio](http://www.rstudio.com/): excelente
 - [Código fonte](https://github.com/augusto-garcia/Biometria-de-Marcadores-Introduction) destes slides
+- [Slides interativos](http://statgen.esalq.usp.br/quantgen/decomp-gen-value/#14)
 
---- plot
-
-## R e html5
-
-
-```r
-library(ggplot2)
-qplot(hp, mpg, data=mtcars)+geom_smooth() 
-```
-
-![plot of chunk md-cars-scatter](assets/fig/md-cars-scatter-1.png)
 
 ---
 
@@ -215,7 +207,7 @@ Involve me and I learn.
 
 ## Estratégia: uso da internet, computação
 
-- Web 2.0, Tablets, Smartphones, $\ldots$
+- Tablets, smartphones, $\ldots$
 - Internet ``Social''
 - Meu [Lab](http://statgen.esalq.usp.br)
 
@@ -223,10 +215,10 @@ Involve me and I learn.
 
 ## Estaremos sempre em contato!
 
+- Grupo no WhatsApp (participe!)
 - Fórum no
   [Google Groups](https://groups.google.com/forum/#!forum/forum-biomarc-2015)
 - Lista de emails (enviarei convites)
-- Página no [Google+](https://plus.google.com/u/0/communities/114505085464124213449)
 - [Mendeley](http://www.mendeley.com/profiles/a-augusto-f-garcia)
 
 ---
@@ -237,17 +229,10 @@ Involve me and I learn.
 
 ---
 
-## Diversos
-
-- [Youtube](http://www.youtube.com/edu) (você conhece?)
-- [WikiBooks](http://en.wikibooks.org)
-- [Linear Algebra](https://www.youtube.com/results?search_query=gilbert+strang+linear+algebra)
-
----
 
 ## Statistical Genetics
 
-- Sendo bem sincero, não é algo simples
+- Sendo bem sincero, não é simples
 - Poucos conceitos podem fazer uma grande diferença
 
 <iframe width="854" height="510"
@@ -271,16 +256,15 @@ frameborder="0" allowfullscreen></iframe>
 
 ---
 
-## Primeiras Tarefas (para 16/03/17):
+## Primeiras Tarefas (para 13/03/19):
 
-- Entrar no Google+ (se possível, configure webcam)
-  - Adicione-me como contato
-  - Procure a comunidade _Biometria de Marcadores Genéticos_ e
-    inscreva-se
-  - Apresente-se na comunidade, dizendo sua área de afinidade, etc
+- Participe do grupo no WhatsApp
 - Crie uma conta no [Mendeley](http://www.mendeley.com/), configure seu perfil e adicione-me
 - Crie uma conta no [Gravatar](http://pt.gravatar.com/) e, obviamente, insira sua foto
-- Inscreva-se no [Fórum da disciplina](https://groups.google.com/forum/#!forum/forum-biometria-de-marcadores-2017)
+- Inscreva-se no [Fórum da
+  disciplina](https://groups.google.com/forum/#!forum/forum-biometria-de-marcadores-2017)
+- Adicione-me no twitter: [@aafgarci](https://twitter.com/aafgarci)
+- Use #biomarc nas postagens relacionadas à disciplina
 - (Opcional: crie uma conta no [github](https://github.com) e adicione-me como contato)
 
 
@@ -292,23 +276,30 @@ print(sessionInfo(), locale = FALSE)
 ```
 
 ```
-## R version 3.3.2 (2016-10-31)
+## R version 3.5.2 (2018-12-20)
 ## Platform: x86_64-pc-linux-gnu (64-bit)
-## Running under: Ubuntu 16.04.2 LTS
+## Running under: Ubuntu 18.04.2 LTS
+## 
+## Matrix products: default
+## BLAS: /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.7.1
+## LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.7.1
 ## 
 ## attached base packages:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-## [1] slidify_0.5   knitr_1.15.1  ggplot2_2.2.1
+## [1] ggplot2_3.1.0 slidify_0.5  
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] Rcpp_0.12.8      codetools_0.2-15 digest_0.6.12    assertthat_0.1  
-##  [5] grid_3.3.2       plyr_1.8.4       gtable_0.2.0     magrittr_1.5    
-##  [9] evaluate_0.10    scales_0.4.1     highr_0.6        stringi_1.1.2   
-## [13] lazyeval_0.2.0   whisker_0.3-2    labeling_0.3     tools_3.3.2     
-## [17] stringr_1.1.0    munsell_0.4.3    markdown_0.7.7   yaml_2.1.14     
-## [21] compiler_3.3.2   colorspace_1.3-2 tibble_1.2
+##  [1] Rcpp_1.0.0       knitr_1.21       whisker_0.3-2    magrittr_1.5    
+##  [5] tidyselect_0.2.5 munsell_0.5.0    colorspace_1.4-0 R6_2.4.0        
+##  [9] rlang_0.3.1      highr_0.7        stringr_1.4.0    plyr_1.8.4      
+## [13] dplyr_0.8.0.1    tools_3.5.2      grid_3.5.2       gtable_0.2.0    
+## [17] xfun_0.5         withr_2.1.2      assertthat_0.2.0 yaml_2.2.0      
+## [21] lazyeval_0.2.1   digest_0.6.18    tibble_2.0.1     crayon_1.3.4    
+## [25] purrr_0.3.1      codetools_0.2-16 glue_1.3.0       evaluate_0.13   
+## [29] labeling_0.3     stringi_1.3.1    compiler_3.5.2   pillar_1.3.1    
+## [33] scales_1.0.0     markdown_0.9     pkgconfig_2.0.2
 ```
 
 --- bg:#fee6ce

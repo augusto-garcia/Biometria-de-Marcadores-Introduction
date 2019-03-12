@@ -4,7 +4,7 @@
   <title>LGN 5830 - Biometria de Marcadores Genéticos</title>
   <meta charset="utf-8">
   <meta name="description" content="LGN 5830 - Biometria de Marcadores Genéticos">
-  <meta name="author" content="Antonio Augusto Franco Garcia (http://about.me/augusto.garcia)">
+  <meta name="author" content="Antonio Augusto Franco Garcia (http://augustogarcia.me)">
   <meta name="generator" content="slidify" />
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -41,7 +41,7 @@
   <hgroup class="auto-fadein">
     <h1>LGN 5830 - Biometria de Marcadores Genéticos</h1>
     <h2>INTRODUÇÃO</h2>
-    <p>Antonio Augusto Franco Garcia (http://about.me/augusto.garcia)<br/>Departamento de Genética, ESALQ/USP (2017)</p>
+    <p>Antonio Augusto Franco Garcia (http://augustogarcia.me)<br/>Departamento de Genética, ESALQ/USP (2019)</p>
   </hgroup>
   <article></article>  
 </slide>
@@ -62,12 +62,12 @@
 <h2>Monitores</h2>
 
 <ul>
-<li>João Ricardo B F Rosa</li>
-<li>Kaio O Graças Dias</li>
-<li>Felipe V Ferrão</li>
-<li>Marianella F Quezada Macchiavello</li>
-<li>Letícia A Castro Lara</li>
-<li>Rafael Storto Nalin</li>
+<li>Kaio Graças Dias</li>
+<li>Letícia Castro Lara</li>
+<li>Rafael Nalin</li>
+<li>Gabriel Gesteira</li>
+<li>Jhonathan Pedroso</li>
+<li>Cristiane Taniguti</li>
 </ul>
 
 <h2>Alunos e ouvintes</h2>
@@ -163,7 +163,13 @@
 <li>Estrutura Populacional</li>
 <li>Modelos de GWAS</li>
 </ul></li>
-<li>Seleção Genômica</li>
+<li>Seleção Genômica
+
+<ul>
+<li>Fundamentos</li>
+<li>GBLUP</li>
+<li>RRBLUP</li>
+</ul></li>
 </ul>
 
   </article>
@@ -182,8 +188,7 @@
 <li>R</li>
 <li>OneMap</li>
 <li>R/qtl</li>
-<li>QTLCartographer (eventual)</li>
-<li>Outros (MAPMAKER/EXP, GenStat, ...)</li>
+<li>Vários outros</li>
 </ul></li>
 </ul>
 
@@ -221,7 +226,7 @@ Chicago, CRA-GPG - Genomic Research Center, ...</li>
 
 <slide class="" id="slide-9" style="background:;">
   <hgroup>
-    <h2>Livro - 2017</h2>
+    <h2>Livro</h2>
   </hgroup>
   <article data-timings="">
     <ul>
@@ -268,7 +273,8 @@ SP, Brazil).</li>
   </hgroup>
   <article data-timings="">
     <ul>
-<li>Dados experimentais (vídeos, que tal?)</li>
+<li>Usaremos ferramentas que permitem isso</li>
+<li>Dados experimentais (vídeos, etc)</li>
 <li>Web</li>
 <li>Códigos para analisar os dados
 
@@ -276,7 +282,7 @@ SP, Brazil).</li>
 <li><a href="http://www.foastat.org/">FOAS</a></li>
 <li><a href="http://ggvis.rstudio.com/">ggvis</a></li>
 <li><a href="http://kbroman.org/qtlcharts/">QTL</a></li>
-<li>html5</li>
+<li><a href="http://statgen.esalq.usp.br/quantgen/">Slides em html</a></li>
 </ul></li>
 </ul>
 
@@ -293,11 +299,7 @@ SP, Brazil).</li>
 <li>Você arruma sua casa antes de receber visitas?</li>
 <li>Você gostaria que alguém repetisse as análises que você fez na sua
 tese?</li>
-<li>E nos artigos já publicados?
-
-<ul>
-<li>(Fiz isso no meu pós-doc)</li>
-</ul></li>
+<li>E nos artigos já publicados?</li>
 </ul>
 
   </article>
@@ -311,8 +313,9 @@ tese?</li>
   <article data-timings="">
     <ul>
 <li>Emacs + R + \(BibTex\)</li>
-<li><a href="http://www.rstudio.com/">RStudio</a>: sensacional, impressionante</li>
+<li><a href="http://www.rstudio.com/">RStudio</a>: excelente</li>
 <li><a href="https://github.com/augusto-garcia/Biometria-de-Marcadores-Introduction">Código fonte</a> destes slides</li>
+<li><a href="http://statgen.esalq.usp.br/quantgen/decomp-gen-value/#14">Slides interativos</a></li>
 </ul>
 
   </article>
@@ -320,21 +323,6 @@ tese?</li>
 </slide>
 
 <slide class="" id="slide-15" style="background:;">
-  <hgroup>
-    <h2>R e html5</h2>
-  </hgroup>
-  <article data-timings="">
-    <pre><code class="r">library(ggplot2)
-qplot(hp, mpg, data=mtcars)+geom_smooth() 
-</code></pre>
-
-<p><img src="assets/fig/md-cars-scatter-1.png" alt="plot of chunk md-cars-scatter"></p>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-16" style="background:;">
   <hgroup>
     <h1>Plano de Ensino</h1>
   </hgroup>
@@ -357,7 +345,7 @@ qplot(hp, mpg, data=mtcars)+geom_smooth()
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="segue dark quote" id="slide-17" style="background:;">
+<slide class="segue dark quote" id="slide-16" style="background:;">
   <article data-timings="">
     <p><q class = 'yellow'> Tell me and I forget, <br />
 Teach me and I remember, <br />
@@ -376,7 +364,7 @@ Involve me and I learn.
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-18" style="background:;">
+<slide class="" id="slide-17" style="background:;">
   <hgroup>
     <h2>Comprometimento</h2>
   </hgroup>
@@ -390,13 +378,13 @@ Involve me and I learn.
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-19" style="background:;">
+<slide class="" id="slide-18" style="background:;">
   <hgroup>
     <h2>Estratégia: uso da internet, computação</h2>
   </hgroup>
   <article data-timings="">
     <ul>
-<li>Web 2.0, Tablets, Smartphones, \(\ldots\)</li>
+<li>Tablets, smartphones, \(\ldots\)</li>
 <li>Internet ``Social&#39;&#39;</li>
 <li>Meu <a href="http://statgen.esalq.usp.br">Lab</a></li>
 </ul>
@@ -405,16 +393,16 @@ Involve me and I learn.
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-20" style="background:;">
+<slide class="" id="slide-19" style="background:;">
   <hgroup>
     <h2>Estaremos sempre em contato!</h2>
   </hgroup>
   <article data-timings="">
     <ul>
+<li>Grupo no WhatsApp (participe!)</li>
 <li>Fórum no
 <a href="https://groups.google.com/forum/#!forum/forum-biomarc-2015">Google Groups</a></li>
 <li>Lista de emails (enviarei convites)</li>
-<li>Página no <a href="https://plus.google.com/u/0/communities/114505085464124213449">Google+</a></li>
 <li><a href="http://www.mendeley.com/profiles/a-augusto-f-garcia">Mendeley</a></li>
 </ul>
 
@@ -422,7 +410,7 @@ Involve me and I learn.
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-21" style="background:;">
+<slide class="" id="slide-20" style="background:;">
   <hgroup>
     <h2>(SEMPRE em contato!)</h2>
   </hgroup>
@@ -433,28 +421,13 @@ Involve me and I learn.
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-22" style="background:;">
-  <hgroup>
-    <h2>Diversos</h2>
-  </hgroup>
-  <article data-timings="">
-    <ul>
-<li><a href="http://www.youtube.com/edu">Youtube</a> (você conhece?)</li>
-<li><a href="http://en.wikibooks.org">WikiBooks</a></li>
-<li><a href="https://www.youtube.com/results?search_query=gilbert+strang+linear+algebra">Linear Algebra</a></li>
-</ul>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-23" style="background:;">
+<slide class="" id="slide-21" style="background:;">
   <hgroup>
     <h2>Statistical Genetics</h2>
   </hgroup>
   <article data-timings="">
     <ul>
-<li>Sendo bem sincero, não é algo simples</li>
+<li>Sendo bem sincero, não é simples</li>
 <li>Poucos conceitos podem fazer uma grande diferença</li>
 </ul>
 
@@ -466,7 +439,7 @@ frameborder="0" allowfullscreen></iframe>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-24" style="background:;">
+<slide class="" id="slide-22" style="background:;">
   <hgroup>
     <h2>Conceitos e Avaliação</h2>
   </hgroup>
@@ -490,23 +463,19 @@ frameborder="0" allowfullscreen></iframe>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-25" style="background:;">
+<slide class="" id="slide-23" style="background:;">
   <hgroup>
-    <h2>Primeiras Tarefas (para 16/03/17):</h2>
+    <h2>Primeiras Tarefas (para 13/03/19):</h2>
   </hgroup>
   <article data-timings="">
     <ul>
-<li>Entrar no Google+ (se possível, configure webcam)
-
-<ul>
-<li>Adicione-me como contato</li>
-<li>Procure a comunidade <em>Biometria de Marcadores Genéticos</em> e
-inscreva-se</li>
-<li>Apresente-se na comunidade, dizendo sua área de afinidade, etc</li>
-</ul></li>
+<li>Participe do grupo no WhatsApp</li>
 <li>Crie uma conta no <a href="http://www.mendeley.com/">Mendeley</a>, configure seu perfil e adicione-me</li>
 <li>Crie uma conta no <a href="http://pt.gravatar.com/">Gravatar</a> e, obviamente, insira sua foto</li>
-<li>Inscreva-se no <a href="https://groups.google.com/forum/#!forum/forum-biometria-de-marcadores-2017">Fórum da disciplina</a></li>
+<li>Inscreva-se no <a href="https://groups.google.com/forum/#!forum/forum-biometria-de-marcadores-2017">Fórum da
+disciplina</a></li>
+<li>Adicione-me no twitter: <a href="https://twitter.com/aafgarci">@aafgarci</a></li>
+<li>Use #biomarc nas postagens relacionadas à disciplina</li>
 <li>(Opcional: crie uma conta no <a href="https://github.com">github</a> e adicione-me como contato)</li>
 </ul>
 
@@ -514,35 +483,42 @@ inscreva-se</li>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-26" style="background:;">
+<slide class="" id="slide-24" style="background:;">
   <article data-timings="">
     <pre><code class="r">print(sessionInfo(), locale = FALSE)
 </code></pre>
 
-<pre><code>## R version 3.3.2 (2016-10-31)
+<pre><code>## R version 3.5.2 (2018-12-20)
 ## Platform: x86_64-pc-linux-gnu (64-bit)
-## Running under: Ubuntu 16.04.2 LTS
+## Running under: Ubuntu 18.04.2 LTS
+## 
+## Matrix products: default
+## BLAS: /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.7.1
+## LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.7.1
 ## 
 ## attached base packages:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-## [1] slidify_0.5   knitr_1.15.1  ggplot2_2.2.1
+## [1] ggplot2_3.1.0 slidify_0.5  
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] Rcpp_0.12.8      codetools_0.2-15 digest_0.6.12    assertthat_0.1  
-##  [5] grid_3.3.2       plyr_1.8.4       gtable_0.2.0     magrittr_1.5    
-##  [9] evaluate_0.10    scales_0.4.1     highr_0.6        stringi_1.1.2   
-## [13] lazyeval_0.2.0   whisker_0.3-2    labeling_0.3     tools_3.3.2     
-## [17] stringr_1.1.0    munsell_0.4.3    markdown_0.7.7   yaml_2.1.14     
-## [21] compiler_3.3.2   colorspace_1.3-2 tibble_1.2
+##  [1] Rcpp_1.0.0       knitr_1.21       whisker_0.3-2    magrittr_1.5    
+##  [5] tidyselect_0.2.5 munsell_0.5.0    colorspace_1.4-0 R6_2.4.0        
+##  [9] rlang_0.3.1      highr_0.7        stringr_1.4.0    plyr_1.8.4      
+## [13] dplyr_0.8.0.1    tools_3.5.2      grid_3.5.2       gtable_0.2.0    
+## [17] xfun_0.5         withr_2.1.2      assertthat_0.2.0 yaml_2.2.0      
+## [21] lazyeval_0.2.1   digest_0.6.18    tibble_2.0.1     crayon_1.3.4    
+## [25] purrr_0.3.1      codetools_0.2-16 glue_1.3.0       evaluate_0.13   
+## [29] labeling_0.3     stringi_1.3.1    compiler_3.5.2   pillar_1.3.1    
+## [33] scales_1.0.0     markdown_0.9     pkgconfig_2.0.2
 </code></pre>
 
   </article>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-27" style="background:#fee6ce;">
+<slide class="" id="slide-25" style="background:#fee6ce;">
   <article data-timings="">
     <p><q>OBRIGADO!</q></p>
 
@@ -604,7 +580,7 @@ inscreva-se</li>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=9 title='Livro - 2017'>
+        data-slide=9 title='Livro'>
          9
       </a>
     </li>
@@ -640,80 +616,68 @@ inscreva-se</li>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=15 title='R e html5'>
+        data-slide=15 title='Plano de Ensino'>
          15
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=16 title='Plano de Ensino'>
+        data-slide=16 title='NA'>
          16
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=17 title='NA'>
+        data-slide=17 title='Comprometimento'>
          17
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=18 title='Comprometimento'>
+        data-slide=18 title='Estratégia: uso da internet, computação'>
          18
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=19 title='Estratégia: uso da internet, computação'>
+        data-slide=19 title='Estaremos sempre em contato!'>
          19
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=20 title='Estaremos sempre em contato!'>
+        data-slide=20 title='(SEMPRE em contato!)'>
          20
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=21 title='(SEMPRE em contato!)'>
+        data-slide=21 title='Statistical Genetics'>
          21
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=22 title='Diversos'>
+        data-slide=22 title='Conceitos e Avaliação'>
          22
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=23 title='Statistical Genetics'>
+        data-slide=23 title='Primeiras Tarefas (para 13/03/19):'>
          23
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=24 title='Conceitos e Avaliação'>
+        data-slide=24 title='NA'>
          24
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=25 title='Primeiras Tarefas (para 16/03/17):'>
+        data-slide=25 title='NA'>
          25
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=26 title='NA'>
-         26
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=27 title='NA'>
-         27
       </a>
     </li>
   </ul>
