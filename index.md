@@ -262,7 +262,7 @@ frameborder="0" allowfullscreen></iframe>
 - Crie uma conta no [Mendeley](http://www.mendeley.com/), configure seu perfil e adicione-me
 - Crie uma conta no [Gravatar](http://pt.gravatar.com/) e, obviamente, insira sua foto
 - Inscreva-se no [Fórum da
-  disciplina](https://groups.google.com/forum/#!forum/forum-biometria-de-marcadores-2017)
+  disciplina](https://groups.google.com/forum/#!forum/forum-biometria-de-marcadores-2019)
 - Adicione-me no twitter: [@aafgarci](https://twitter.com/aafgarci)
 - Use #biomarc nas postagens relacionadas à disciplina
 - (Opcional: crie uma conta no [github](https://github.com) e adicione-me como contato)
